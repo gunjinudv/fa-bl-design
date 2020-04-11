@@ -1,0 +1,93 @@
+a {
+  text-decoration: none;
+  transition: all .5s ease;
+}
+
+/*Page d'accueil*/
+
+#page-body {
+  width: 880px;
+  margin: 0 auto;
+}
+
+#site-title, #site-desc, #logo {
+  opacity: 0;
+}
+
+.headerbar {
+  height: 600px;
+}
+
+.navbar a {
+  border-radius: 2px;
+  font-size: 1rem;
+  line-height: 1.3846;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500 !important;
+}
+
+.navbar img {
+  width: 0;
+}
+
+.lastpost-avatar img, .mod-login-avatar img {
+    object-fit: cover;
+}
+
+.linklist a {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: white;
+}
+
+.table-title h2 {
+  text-transform: uppercase;
+  font-size: 2.4rem !important;
+  font-weight: 300 !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  letter-spacing: 5px !important;
+}
+
+a.forumtitle {
+  color: #c03 !important;
+  letter-spacing: 2px !important;
+  text-transform: lowercase;
+}
+
+a.forumtitle:hover {
+  color: #AFD886 !important;
+  text-decoration: none;
+}
+
+/* Posts */
+
+.postprofile-avatar img {
+    border: 3px solid #FFF;
+    border-radius: 0px;
+    height: 320px;
+    width: 200px;
+}
+
+.postprofile {
+  width: 240px;
+}
+
+.postprofile dl {
+  width:200px;
+}
+
+.post-head {
+  border-color: #afd886 !important;
+}
+
+#preview .postbody table, #preview .postbody td, div[class*='post--'] .postbody table, div[class*='post--'] .postbody td {
+    border: none!important;
+}
+
+.postbody div {
+  box-sizing: content-box !important;
+}
+
+/*CODE PREDEF*/
