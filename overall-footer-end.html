@@ -3,29 +3,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <body>
 <div>
-	<div>
+    <div>
         <ul>
             <li>
 <!-- END html_validation -->
             </li>
         </ul>
         <!-- BEGIN switch_footer_links -->
-		<ul class="footerbar-user">
-			<li><i class="ion-clock"></i>{CURRENT_TIME}</li>
+        <ul class="footerbar-user">
+            <li><i class="ion-clock"></i>{CURRENT_TIME}</li>
             <!-- BEGIN footer_link -->
-				<li class="rightside">
-					<a name="bottom" class="copyright" href="{switch_footer_links.footer_link.U_FOOTER_LINK_HREF}" rel="{switch_footer_links.footer_link.FOOTER_LINK_REL}" target="{switch_footer_links.footer_link.FOOTER_LINK_TARGET}" title="{switch_footer_links.footer_link.L_FOOTER_LINK_TITLE}">
-						{switch_footer_links.footer_link.L_FOOTER_LINK_TEXT}
-					</a>
-				</li>
+                <li class="rightside">
+                    <a name="bottom" class="copyright" href="{switch_footer_links.footer_link.U_FOOTER_LINK_HREF}" rel="{switch_footer_links.footer_link.FOOTER_LINK_REL}" target="{switch_footer_links.footer_link.FOOTER_LINK_TARGET}" title="{switch_footer_links.footer_link.L_FOOTER_LINK_TITLE}">
+                        {switch_footer_links.footer_link.L_FOOTER_LINK_TEXT}
+                    </a>
+                </li>
             <!-- END footer_link -->
         </ul>
         <!-- END switch_footer_links -->
     </div>
-	<div class="copyright">
-		<div class="wrap">
-			<div class="copyright-body">
-				{ADMIN_LINK}
+    <div class="copyright">
+        <div class="wrap">
+            <div class="copyright-body">
+                {ADMIN_LINK}
             </div>
         </div>
     </div>
@@ -35,23 +35,10 @@
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function() {
-	$(window).scroll(function() {
-		var header_top = $('#headerbar-top');
-
-		if (header_top.hasClass('w-toolbar')) {
-			if ($(window).scrollTop() >= 42) {
-				header_top.addClass('is-sticky');
-			} else {
-				header_top.removeClass('is-sticky');
-			}
-		} else {
-			if ($(window).scrollTop() >= 1) {
-				header_top.addClass('is-sticky');
-			} else {
-				header_top.removeClass('is-sticky');
-			}
-		}
-	});
+    $(window).scroll(function() {
+        var header_top = $('#headerbar-top');
+        header_top.addClass('is-sticky');
+    });
 });
 //]]>
 </script>
@@ -118,7 +105,7 @@ $(document).ready(function() {
 <!-- END switch_topicit_connect -->
 <script type="text/javascript">
 //<![CDATA[
-	fa_endpage();
+    fa_endpage();
 //]]>
 </script>
 </body>
